@@ -1,0 +1,78 @@
+.info {
+    width: 40%;
+    height: 500px;
+    background-color: rgb(222, 168, 177);
+    margin: 10%;
+    margin-left: 30%;
+    border-radius: 10%;
+}
+h1 {
+    text-align: center;
+    padding-top: 30px; 
+}
+.search {
+    margin-left: 10%;
+    margin-top: 10%;
+    height: 10%;
+}
+.infotext {
+    position: relative;
+    display: inline-block; 
+}
+.infotext i {
+  position: absolute;
+  left: 280px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(81, 81, 81);
+}
+.cityy {
+  width: 300px;
+  height: 25px;
+  border: none;
+}
+select {
+    height: 52%;
+    width: 150px;
+    border: none;
+    margin-left: 2%;
+}
+.date {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    margin: 0% 0 0 10%;
+}
+.date i {
+    font-size: 18px;
+    color: rgb(81, 81, 81);
+}
+p {
+    font-size: 1.2rem;
+}
+.city {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    margin: -3% 0 0 10%;
+}
+.city i {
+    font-size: 20px;
+    color: rgb(81, 81, 81);
+}
+.temp {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    margin: -3% 0 0 10%;
+}
+.temp i {
+    font-size: 20px;
+    color: rgb(81, 81, 81);
+}
+.cond {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    margin: -3% 0 0 15%;
+}
